@@ -366,12 +366,27 @@ font-family: 'Roboto', sans-serif; -->
     <div class="backdrop is-hidden" data-modal>
        
         <div class="modal">
-            <button data-modal-close>
-                <svg class="backdrop-modal-btn">
-                    <use href="./images/icons/symbol-defs.svg#icon-cross" width="30" height="30"></use>
+            <button class="backdrop-modal-btn" data-modal-close>
+                <svg width="11" height="11">
+                    <use class="svg-modal-btn" href="./images/icons/symbol-defs.svg#icon-cross" ></use>
                 </svg>
             </button>
+
+            <form class="form">
+                <label>Имя</label>
+                <input class="input" type="name" name="name" id="name"> 
+                <label>Телефон</label>
+                <input class="input" type="tel" name="tel" id="tel"> 
+                <label>Почта</label>
+                <input class="input" type="mail" name="mail" id="mail"> 
+                <label>Комментарий</label>
+                <input class="input" type="textarea" name="textarea" id="textarea"> 
+                <button type="submit">Отправить</button>
+            </form>
+
         </div>
+
+        
 
 
 

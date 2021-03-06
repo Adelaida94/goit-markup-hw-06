@@ -919,10 +919,72 @@ position: relative;
     width:30px;
     height:30px;
     cursor:pointer;
+    fill: var(--blue);
+    border: 1px solid var(--grey-text);
+    border-radius: 50%;
+    padding:none;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    
 }
-
+/* 
+.svg-modal-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--blue);
+    fill:transparent;
+    
+} */
 
 .backdrop.is-hidden {
 opacity:0;
 pointer-events:none;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form label {
+    color: var(--grey-text);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+.form .input {
+    width:448px;
+    height:40px;
+    padding:11px 12px;
+    font-family: inherit;
+    border: 1px solid rgba(33,33,33,0,2);
+    border-radius: 4px;
+}
+
+.form button {
+    background-color: var(--blue);
+    width:200px;
+    height:50px;
+    margin-bottom:40px;
+    margin:auto;
+    background-color: var(--blue);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--white);
+    text-align: center;
+    letter-spacing: 0.06em;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
 }
