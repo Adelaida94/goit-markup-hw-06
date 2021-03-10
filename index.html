@@ -375,20 +375,37 @@ font-family: 'Roboto', sans-serif; -->
             <p>Оставьте свои данные, мы вам перезвоним</p>
             <form class="form">
                <div class="label-input-block">
-                    <label>Имя</label>
-                    <input class="input" type="name" name="name" id="name"> 
+                    <label for="name">Имя</label>
+                    <div class="input-field-box">
+                        <svg class="form-icon" width="12" height="12">
+                            <use href="./images/icons/symbol-defs.svg#icon-name-form"></use>
+                        </svg>
+                    
+                        <input class="input-field" type="name" name="name" id="name"> 
+                    </div>
                 </div>
                 <div class="label-input-block">
-                    <label>Телефон</label>
-                    <input class="input" type="tel" name="tel" id="tel"> 
+                    <label for="tel">Телефон</label>
+                   
+                    <div class="input-field-box">
+                        <svg class="form-icon" width="13" height="13">
+                            <use href="./images/icons/symbol-defs.svg#icon-phone-form"></use>
+                        </svg>
+                        <input class="input-field" type="tel" name="tel" id="tel"> 
+                    </div>
                 </div>
                 <div class="label-input-block">
-                    <label>Почта</label>
-                    <input class="input" type="mail" name="mail" id="mail"> 
+                    <label for="mail">Почта</label>
+                    <div class="input-field-box">
+                        <svg class="form-icon" width="15" height="12">
+                            <use href="./images/icons/symbol-defs.svg#icon-mail-form"></use>
+                        </svg>
+                        <input class="input-field" type="mail" name="mail" id="mail"> 
+                    </div>
                 </div>
                 <div class="label-input-block">
-                    <label>Комментарий</label>
-                    <input class="input" type="textarea" name="textarea" id="textarea" placeholder="Введите текст"> 
+                    <label for="textarea">Комментарий</label>
+                    <input class="input-field" type="textarea" name="textarea" id="textarea" placeholder="Введите текст"> 
                 </div>
                 <div class="checkbox-block">
                     <input class="checkbox" type="checkbox" name="conditions">  
