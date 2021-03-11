@@ -356,7 +356,21 @@ font-family: 'Roboto', sans-serif; -->
                             </svg>
                         </a>
                     </li>
+                    
                 </ul>
+            </div>
+            <div class="footer-form-container">
+                <p> Подпишитесь на рассылку </p>
+                <form class="footer-form">
+                    <div class="mail-footer-block">
+                        <input class="input-footer" type="mail" name="mail" id="mail-footer" placeholder="Email"> 
+                        <button type="submit">Подписаться 
+                            <svg class="send-icon" width="24" height="24">
+                            <use href="./images/icons/symbol-defs.svg#icon-send"></use>
+                            </svg>
+                     </button>
+                    </div>
+                </form>
             </div>
         </div>
     </footer>
@@ -408,8 +422,9 @@ font-family: 'Roboto', sans-serif; -->
                     <input class="input-field" type="textarea" name="textarea" id="textarea" placeholder="Введите текст"> 
                 </div>
                 <div class="checkbox-block">
+                    
                     <input class="checkbox" type="checkbox" name="conditions">  
-                    <label class="conditions">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></label>
+                    <label for="checkbox" class="conditions">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></label>
                 </div>
                 <button type="submit">Отправить</button>
             </form>
